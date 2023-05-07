@@ -13,7 +13,6 @@
 		B723BAF62A06F4180017E5A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B723BAF42A06F4180017E5A5 /* Main.storyboard */; };
 		B723BAF82A06F4190017E5A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B723BAF72A06F4190017E5A5 /* Assets.xcassets */; };
 		B723BAFB2A06F4190017E5A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B723BAF92A06F4190017E5A5 /* LaunchScreen.storyboard */; };
-		B723BB062A06F4190017E5A5 /* ProyectoBetaGrupo1T6CLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B723BB052A06F4190017E5A5 /* ProyectoBetaGrupo1T6CLTests.swift */; };
 		B723BB102A06F4190017E5A5 /* ProyectoBetaGrupo1T6CLUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B723BB0F2A06F4190017E5A5 /* ProyectoBetaGrupo1T6CLUITests.swift */; };
 		B723BB122A06F4190017E5A5 /* ProyectoBetaGrupo1T6CLUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B723BB112A06F4190017E5A5 /* ProyectoBetaGrupo1T6CLUITestsLaunchTests.swift */; };
 		B723BB1F2A071EEC0017E5A5 /* PruebaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B723BB1E2A071EEC0017E5A5 /* PruebaViewController.swift */; };
@@ -46,7 +45,6 @@
 		B723BAFA2A06F4190017E5A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B723BAFC2A06F4190017E5A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B723BB012A06F4190017E5A5 /* ProyectoBetaGrupo1T6CLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProyectoBetaGrupo1T6CLTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B723BB052A06F4190017E5A5 /* ProyectoBetaGrupo1T6CLTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProyectoBetaGrupo1T6CLTests.swift; sourceTree = "<group>"; };
 		B723BB0B2A06F4190017E5A5 /* ProyectoBetaGrupo1T6CLUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProyectoBetaGrupo1T6CLUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B723BB0F2A06F4190017E5A5 /* ProyectoBetaGrupo1T6CLUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProyectoBetaGrupo1T6CLUITests.swift; sourceTree = "<group>"; };
 		B723BB112A06F4190017E5A5 /* ProyectoBetaGrupo1T6CLUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProyectoBetaGrupo1T6CLUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -82,7 +80,6 @@
 			isa = PBXGroup;
 			children = (
 				B723BAED2A06F4180017E5A5 /* ProyectoBetaGrupo1T6CL */,
-				B723BB042A06F4190017E5A5 /* ProyectoBetaGrupo1T6CLTests */,
 				B723BB0E2A06F4190017E5A5 /* ProyectoBetaGrupo1T6CLUITests */,
 				B723BAEC2A06F4180017E5A5 /* Products */,
 			);
@@ -111,14 +108,6 @@
 				B723BB1E2A071EEC0017E5A5 /* PruebaViewController.swift */,
 			);
 			path = ProyectoBetaGrupo1T6CL;
-			sourceTree = "<group>";
-		};
-		B723BB042A06F4190017E5A5 /* ProyectoBetaGrupo1T6CLTests */ = {
-			isa = PBXGroup;
-			children = (
-				B723BB052A06F4190017E5A5 /* ProyectoBetaGrupo1T6CLTests.swift */,
-			);
-			path = ProyectoBetaGrupo1T6CLTests;
 			sourceTree = "<group>";
 		};
 		B723BB0E2A06F4190017E5A5 /* ProyectoBetaGrupo1T6CLUITests */ = {
@@ -272,7 +261,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B723BB062A06F4190017E5A5 /* ProyectoBetaGrupo1T6CLTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
