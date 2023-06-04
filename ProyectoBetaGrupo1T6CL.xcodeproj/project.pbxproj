@@ -15,6 +15,14 @@
 		B723BAFB2A06F4190017E5A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B723BAF92A06F4190017E5A5 /* LaunchScreen.storyboard */; };
 		B723BB102A06F4190017E5A5 /* ProyectoBetaGrupo1T6CLUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B723BB0F2A06F4190017E5A5 /* ProyectoBetaGrupo1T6CLUITests.swift */; };
 		B723BB122A06F4190017E5A5 /* ProyectoBetaGrupo1T6CLUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B723BB112A06F4190017E5A5 /* ProyectoBetaGrupo1T6CLUITestsLaunchTests.swift */; };
+		B750F4172A2C184700573BDD /* imagenBellezalon.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B750F4162A2C184700573BDD /* imagenBellezalon.jpeg */; };
+		B750F4192A2C224000573BDD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B750F4182A2C224000573BDD /* LoginViewController.swift */; };
+		B750F41B2A2C229B00573BDD /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B750F41A2A2C229B00573BDD /* RegisterViewController.swift */; };
+		B750F41D2A2C22CB00573BDD /* ResetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B750F41C2A2C22CB00573BDD /* ResetViewController.swift */; };
+		B750F41F2A2C34AD00573BDD /* ServicioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B750F41E2A2C34AD00573BDD /* ServicioViewController.swift */; };
+		B750F4212A2C34BD00573BDD /* ServicioTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B750F4202A2C34BD00573BDD /* ServicioTableViewCell.swift */; };
+		B750F4232A2C353000573BDD /* CitasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B750F4222A2C353000573BDD /* CitasViewController.swift */; };
+		B750F4252A2C353800573BDD /* CitaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B750F4242A2C353800573BDD /* CitaTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +55,14 @@
 		B723BB0B2A06F4190017E5A5 /* ProyectoBetaGrupo1T6CLUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProyectoBetaGrupo1T6CLUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B723BB0F2A06F4190017E5A5 /* ProyectoBetaGrupo1T6CLUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProyectoBetaGrupo1T6CLUITests.swift; sourceTree = "<group>"; };
 		B723BB112A06F4190017E5A5 /* ProyectoBetaGrupo1T6CLUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProyectoBetaGrupo1T6CLUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B750F4162A2C184700573BDD /* imagenBellezalon.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = imagenBellezalon.jpeg; path = ../../imagenBellezalon.jpeg; sourceTree = "<group>"; };
+		B750F4182A2C224000573BDD /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B750F41A2A2C229B00573BDD /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		B750F41C2A2C22CB00573BDD /* ResetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetViewController.swift; sourceTree = "<group>"; };
+		B750F41E2A2C34AD00573BDD /* ServicioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ServicioViewController.swift; path = "../../../Downloads/ProyectoDAM2T6cl-RamaCriollo/ProyectoBetaGrupo1T6CL/ServicioViewController.swift"; sourceTree = "<group>"; };
+		B750F4202A2C34BD00573BDD /* ServicioTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ServicioTableViewCell.swift; path = "../../../Downloads/ProyectoDAM2T6cl-RamaCriollo/ProyectoBetaGrupo1T6CL/ServicioTableViewCell.swift"; sourceTree = "<group>"; };
+		B750F4222A2C353000573BDD /* CitasViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CitasViewController.swift; path = "../../../Downloads/ProyectoDAM2T6cl-RamaRojas/ProyectoBetaGrupo1T6CL/CitasViewController.swift"; sourceTree = "<group>"; };
+		B750F4242A2C353800573BDD /* CitaTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CitaTableViewCell.swift; path = "../../../Downloads/ProyectoDAM2T6cl-RamaRojas/ProyectoBetaGrupo1T6CL/CitaTableViewCell.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +112,7 @@
 		B723BAED2A06F4180017E5A5 /* ProyectoBetaGrupo1T6CL */ = {
 			isa = PBXGroup;
 			children = (
+				B750F4162A2C184700573BDD /* imagenBellezalon.jpeg */,
 				B723BAEE2A06F4180017E5A5 /* AppDelegate.swift */,
 				B723BAF02A06F4180017E5A5 /* SceneDelegate.swift */,
 				B723BAF22A06F4180017E5A5 /* ViewController.swift */,
@@ -103,6 +120,13 @@
 				B723BAF72A06F4190017E5A5 /* Assets.xcassets */,
 				B723BAF92A06F4190017E5A5 /* LaunchScreen.storyboard */,
 				B723BAFC2A06F4190017E5A5 /* Info.plist */,
+				B750F4242A2C353800573BDD /* CitaTableViewCell.swift */,
+				B750F4222A2C353000573BDD /* CitasViewController.swift */,
+				B750F4202A2C34BD00573BDD /* ServicioTableViewCell.swift */,
+				B750F41E2A2C34AD00573BDD /* ServicioViewController.swift */,
+				B750F4182A2C224000573BDD /* LoginViewController.swift */,
+				B750F41A2A2C229B00573BDD /* RegisterViewController.swift */,
+				B750F41C2A2C22CB00573BDD /* ResetViewController.swift */,
 			);
 			path = ProyectoBetaGrupo1T6CL;
 			sourceTree = "<group>";
@@ -222,6 +246,7 @@
 			files = (
 				B723BAFB2A06F4190017E5A5 /* LaunchScreen.storyboard in Resources */,
 				B723BAF82A06F4190017E5A5 /* Assets.xcassets in Resources */,
+				B750F4172A2C184700573BDD /* imagenBellezalon.jpeg in Resources */,
 				B723BAF62A06F4180017E5A5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -247,8 +272,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B750F4192A2C224000573BDD /* LoginViewController.swift in Sources */,
+				B750F41B2A2C229B00573BDD /* RegisterViewController.swift in Sources */,
 				B723BAF32A06F4180017E5A5 /* ViewController.swift in Sources */,
+				B750F41F2A2C34AD00573BDD /* ServicioViewController.swift in Sources */,
+				B750F4232A2C353000573BDD /* CitasViewController.swift in Sources */,
 				B723BAEF2A06F4180017E5A5 /* AppDelegate.swift in Sources */,
+				B750F4212A2C34BD00573BDD /* ServicioTableViewCell.swift in Sources */,
+				B750F41D2A2C22CB00573BDD /* ResetViewController.swift in Sources */,
+				B750F4252A2C353800573BDD /* CitaTableViewCell.swift in Sources */,
 				B723BAF12A06F4180017E5A5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
