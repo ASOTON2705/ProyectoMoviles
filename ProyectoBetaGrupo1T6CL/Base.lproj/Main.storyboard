@@ -104,9 +104,13 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ucZ-Rv-fg2">
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" title="notificacionesSwitch" translatesAutoresizingMaskIntoConstraints="NO" id="ucZ-Rv-fg2">
                                 <rect key="frame" x="268" y="393" width="49" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="remenberPassword:" destination="cMM-4J-RiY" eventType="valueChanged" id="aeo-0M-AXe"/>
+                                    <action selector="statusChange:" destination="cMM-4J-RiY" eventType="valueChanged" id="fun-9v-XWV"/>
+                                </connections>
                             </switch>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I6n-ZC-8sx">
                                 <rect key="frame" x="132" y="484" width="128" height="35"/>
@@ -114,7 +118,9 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="Login"/>
                                 <connections>
-                                    <segue destination="qvI-UG-OrC" kind="show" id="QJz-7L-xsA"/>
+                                    <action selector="loginAction:" destination="cMM-4J-RiY" eventType="touchUpInside" id="CIG-EL-KsK"/>
+                                    <action selector="loginButton:" destination="cMM-4J-RiY" eventType="touchUpInside" id="e2p-Vo-5m0"/>
+                                    <segue destination="qvI-UG-OrC" kind="show" id="NCk-bo-H8L"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NfG-fT-DKF">
@@ -122,6 +128,10 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Back"/>
+                                <connections>
+                                    <action selector="backAction:" destination="cMM-4J-RiY" eventType="touchUpInside" id="Auv-tO-d48"/>
+                                    <action selector="backButton:" destination="cMM-4J-RiY" eventType="touchUpInside" id="OeY-oA-xLw"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fSG-00-uR6">
                                 <rect key="frame" x="162" y="702" width="68" height="35"/>
@@ -129,6 +139,8 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="Reset"/>
                                 <connections>
+                                    <action selector="resetAction:" destination="cMM-4J-RiY" eventType="touchUpInside" id="NVQ-YT-Yew"/>
+                                    <action selector="resetButton:" destination="cMM-4J-RiY" eventType="touchUpInside" id="5Db-bm-dyq"/>
                                     <segue destination="8TM-kg-dDy" kind="show" id="OLs-Wt-fvv"/>
                                 </connections>
                             </button>
@@ -145,8 +157,12 @@
                     </view>
                     <navigationItem key="navigationItem" id="fTC-iz-thl"/>
                     <connections>
+                        <outlet property="backButton" destination="NfG-fT-DKF" id="UDo-CY-2uh"/>
                         <outlet property="emailText" destination="Wje-i8-JwM" id="zeo-pC-CpQ"/>
+                        <outlet property="loginButton" destination="I6n-ZC-8sx" id="uWe-zS-jx4"/>
+                        <outlet property="notificationSwitch" destination="ucZ-Rv-fg2" id="E0V-LL-y4O"/>
                         <outlet property="passwordText" destination="0P1-cb-4Hu" id="07v-gM-Sa3"/>
+                        <outlet property="resetButton" destination="fSG-00-uR6" id="zY3-na-k0n"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cdY-fF-qmT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -359,7 +375,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" spacing="27" translatesAutoresizingMaskIntoConstraints="NO" id="37l-4Y-Klt">
-                                                    <rect key="frame" x="164" y="56.999999999999986" width="139.66666666666663" height="20.333333333333329"/>
+                                                    <rect key="frame" x="164" y="56.999999999999993" width="139.66666666666663" height="20.333333333333336"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Precio:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lhb-yF-8X2">
                                                             <rect key="frame" x="0.0" y="0.0" width="52.666666666666664" height="20.333333333333332"/>
@@ -604,7 +620,7 @@
                                                     </subviews>
                                                 </stackView>
                                                 <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" distribution="equalCentering" alignment="center" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="ISd-4M-K0w">
-                                                    <rect key="frame" x="238.99999999999994" y="120" width="97.333333333333314" height="96.666666666666686"/>
+                                                    <rect key="frame" x="238.99999999999997" y="120" width="97.333333333333343" height="96.666666666666686"/>
                                                     <subviews>
                                                         <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hu1-l7-mUD">
                                                             <rect key="frame" x="5" y="0.0" width="87.666666666666671" height="24"/>
@@ -886,7 +902,7 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="wt2-cQ-9bJ"/>
-        <segue reference="QJz-7L-xsA"/>
+        <segue reference="NCk-bo-H8L"/>
         <segue reference="hPS-3R-Q9F"/>
     </inferredMetricsTieBreakers>
     <resources>

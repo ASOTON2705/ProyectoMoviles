@@ -16,6 +16,18 @@ class LoginViewController: UIViewController {
     @IBOutlet weak var passwordText: UITextField!
     
     
+    @IBOutlet weak var loginButton: UIButton!
+    
+    
+    @IBOutlet weak var backButton: UIButton!
+    
+    
+    @IBOutlet weak var resetButton: UIButton!
+    
+    
+    @IBOutlet weak var notificationSwitch: UISwitch!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -23,7 +35,38 @@ class LoginViewController: UIViewController {
     }
     
     
-
+    @IBAction func loginAction(_ sender: Any) {
+        let email = emailText.text
+        let password = passwordText.text
+        if let mail = email, let pass = password {
+            
+            print(mail)
+            print(pass)
+        }
+        else {
+            // Mostrar alertas
+        }
+        
+    }
+    
+    
+    @IBAction func backAction(_ sender: Any) {
+        
+    }
+    
+    
+    @IBAction func resetAction(_ sender: Any) {
+        
+    }
+    
+    
+    @IBAction func statusChange(_ sender: Any) {
+        
+    let status = notificationSwitch.isOn
+    print(status)
+        
+    }
+    
     /*
     // MARK: - Navigation
 
