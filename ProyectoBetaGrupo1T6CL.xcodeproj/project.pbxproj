@@ -55,14 +55,14 @@
 		B723BB0B2A06F4190017E5A5 /* ProyectoBetaGrupo1T6CLUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProyectoBetaGrupo1T6CLUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B723BB0F2A06F4190017E5A5 /* ProyectoBetaGrupo1T6CLUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProyectoBetaGrupo1T6CLUITests.swift; sourceTree = "<group>"; };
 		B723BB112A06F4190017E5A5 /* ProyectoBetaGrupo1T6CLUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProyectoBetaGrupo1T6CLUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		B750F4162A2C184700573BDD /* imagenBellezalon.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = imagenBellezalon.jpeg; path = ../../imagenBellezalon.jpeg; sourceTree = "<group>"; };
+		B750F4162A2C184700573BDD /* imagenBellezalon.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = imagenBellezalon.jpeg; path = "../../ProyectoMoviles-RamaSotoxx/ProyectoMoviles-RamaSoto/imagenBellezalon.jpeg"; sourceTree = "<group>"; };
 		B750F4182A2C224000573BDD /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		B750F41A2A2C229B00573BDD /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		B750F41C2A2C22CB00573BDD /* ResetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetViewController.swift; sourceTree = "<group>"; };
-		B750F41E2A2C34AD00573BDD /* ServicioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ServicioViewController.swift; path = "../../../Downloads/ProyectoDAM2T6cl-RamaCriollo/ProyectoBetaGrupo1T6CL/ServicioViewController.swift"; sourceTree = "<group>"; };
-		B750F4202A2C34BD00573BDD /* ServicioTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ServicioTableViewCell.swift; path = "../../../Downloads/ProyectoDAM2T6cl-RamaCriollo/ProyectoBetaGrupo1T6CL/ServicioTableViewCell.swift"; sourceTree = "<group>"; };
-		B750F4222A2C353000573BDD /* CitasViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CitasViewController.swift; path = "../../../Downloads/ProyectoDAM2T6cl-RamaRojas/ProyectoBetaGrupo1T6CL/CitasViewController.swift"; sourceTree = "<group>"; };
-		B750F4242A2C353800573BDD /* CitaTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CitaTableViewCell.swift; path = "../../../Downloads/ProyectoDAM2T6cl-RamaRojas/ProyectoBetaGrupo1T6CL/CitaTableViewCell.swift"; sourceTree = "<group>"; };
+		B750F41E2A2C34AD00573BDD /* ServicioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServicioViewController.swift; sourceTree = "<group>"; };
+		B750F4202A2C34BD00573BDD /* ServicioTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServicioTableViewCell.swift; sourceTree = "<group>"; };
+		B750F4222A2C353000573BDD /* CitasViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CitasViewController.swift; sourceTree = "<group>"; };
+		B750F4242A2C353800573BDD /* CitaTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CitaTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
